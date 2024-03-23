@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -441,4 +442,180 @@ main {
   }
 }
 
-/*Fin de ventas*//*# sourceMappingURL=estilos.css.map */
+/*Fin de ventas*/
+/*Sesion inicio*/
+.pP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.pP .hdos {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.pP .formnone1 {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pP .formnone1 div {
+  margin-bottom: 20px;
+}
+.pP .formnone1 div label {
+  font-weight: bold;
+  color: #555;
+}
+.pP .formnone1 div input[type=email],
+.pP .formnone1 div input[type=password] {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.pP .Registrate {
+  margin-top: 20px;
+}
+.pP .Registrate p {
+  margin: 0;
+}
+.pP .Registrate p a {
+  color: #85730e;
+  text-decoration: none;
+}
+.pP .Registrate p a:hover {
+  text-decoration: underline;
+}
+.pP .Botton button {
+  width: 100%;
+  max-width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.pP .Botton button:hover {
+  background-color: #45a049;
+}
+
+/*Sesion fin*/
+/*Registro inicio*/
+.Pq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Pq .formnone {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Pq .formnone .hdos {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.Pq .formnone .htres {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+.Pq .formnone .form {
+  display: flex;
+  flex-direction: column;
+}
+.Pq .formnone .form .Email,
+.Pq .formnone .form .contraseña {
+  margin-bottom: 20px;
+}
+.Pq .formnone .form .Email label,
+.Pq .formnone .form .contraseña label {
+  font-weight: bold;
+  color: #555;
+}
+.Pq .formnone .form .Email input[type=email],
+.Pq .formnone .form .Email input[type=password],
+.Pq .formnone .form .contraseña input[type=email],
+.Pq .formnone .form .contraseña input[type=password] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.Pq .formnone .form .Botton2 {
+  text-align: center;
+}
+.Pq .formnone .form .Botton2 button.enviar {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Pq .formnone .form .Botton2 button.enviar:hover {
+  background-color: #45a049;
+}
+.Pq .formnone .Registrate2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Pq .formnone .Registrate2 p {
+  margin: 0;
+}
+.Pq .formnone .Registrate2 p a {
+  color: #806f0e;
+  text-decoration: none;
+}
+.Pq .formnone .Registrate2 p a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1200px) {
+  .Pq .formnone {
+    max-width: 800px;
+  }
+}
+@media (max-width: 992px) {
+  .Pq .formnone {
+    max-width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .Pq .formnone {
+    max-width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .Pq .formnone {
+    max-width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .Pq .formnone {
+    max-width: 300px;
+    padding: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .Pq .formnone {
+    max-width: 260px;
+  }
+}
+
+/*Registro Fin*//*# sourceMappingURL=estilos.css.map */
