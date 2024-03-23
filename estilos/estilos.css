@@ -292,7 +292,10 @@ main {
   align-items: center;
   margin-top: 20px;
 }
-.Tipautos .ImgC, .Tipautos .ImgC2, .Tipautos .ImgC3, .Tipautos .ImgC4 {
+.Tipautos .ImgC,
+.Tipautos .ImgC2,
+.Tipautos .ImgC3,
+.Tipautos .ImgC4 {
   max-width: 100%;
   height: 100%;
 }
@@ -316,7 +319,7 @@ main {
 .Tipautos table tr {
   display: grid;
   grid-template-columns: 50% 50%;
-  border: 1px solid #ffffff;
+  border: 1px solid #ddd;
 }
 .Tipautos table tr td {
   padding: 10px;
@@ -327,5 +330,115 @@ main {
 .Tipautos table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+@media screen and (max-width: 1200px) {
+  .Tipautos table {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Tipautos .hdos {
+    font-size: 20px;
+  }
+  .Tipautos .htres {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Tipautos table {
+    width: 100%;
+  }
+  .Tipautos .hdos {
+    font-size: 18px;
+  }
+  .Tipautos .hdos .htres {
+    font-size: 12px;
+  }
+}
 
-/*Fin de autos *//*# sourceMappingURL=estilos.css.map */
+/*Fin de autos */
+/*Inicio de ventas*/
+.Po {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.Po div {
+  margin-bottom: 20px;
+}
+.Po .hdos {
+  color: #c9b755;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Po .htres {
+  color: #ddd;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Po form {
+  width: 80%;
+}
+.Po form div {
+  margin-bottom: 15px;
+}
+.Po form div label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.Po form div select,
+.Po form div input[type=file],
+.Po form div textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.Po form div textarea {
+  resize: vertical;
+}
+.Po form .Foto input[type=file] {
+  border: none;
+  padding: 0;
+}
+.Po form .buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Po form .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.Po form .buttons .submit,
+.Po form .buttons .delete {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c9b755;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+.Po form .buttons .submit:hover,
+.Po form .buttons .delete:hover {
+  background-color: #b39c4e;
+}
+@media screen and (max-width: 1200px) {
+  .Po form form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Po form form {
+    width: 100%;
+  }
+}
+
+/*Fin de ventas*//*# sourceMappingURL=estilos.css.map */

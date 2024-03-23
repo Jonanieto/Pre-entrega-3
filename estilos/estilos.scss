@@ -336,7 +336,10 @@ main {
     align-items: center;
     margin-top: 20px;
 
-    .ImgC, .ImgC2, .ImgC3, .ImgC4 {
+    .ImgC,
+    .ImgC2,
+    .ImgC3,
+    .ImgC4 {
         max-width: 100%;
         height: 100%;
     }
@@ -363,7 +366,7 @@ main {
         tr {
             display: grid;
             grid-template-columns: 50% 50%;
-            border: 1px solid #ffffff;
+            border: 1px solid #ddd;
 
             td {
                 padding: 10px;
@@ -378,6 +381,135 @@ main {
             }
         }
     }
+
+    @media screen and (max-width: 1200px) {
+        table {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .hdos {
+            font-size: 20px;
+        }
+
+        .htres {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        table {
+            width: 100%;
+        }
+
+        .hdos {
+            font-size: 18px;
+
+            .htres {
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 /*Fin de autos */
+
+/*Inicio de ventas*/
+.Po {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    div {
+        margin-bottom: 20px;
+    }
+
+    .hdos {
+        color: #c9b755;
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .htres {
+        color: #ddd;
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    form {
+        width: 80%;
+
+        div {
+            margin-bottom: 15px;
+
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            select,
+            input[type="file"],
+            textarea {
+                width: 100%;
+                padding: 8px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+
+            textarea {
+                resize: vertical;
+            }
+        }
+
+        .Foto input[type="file"] {
+            border: none;
+            padding: 0;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 10px;
+
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .submit,
+            .delete {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: #c9b755;
+                color: #fff;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: #b39c4e;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            form {
+                width: 90%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            form {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*Fin de ventas*/
