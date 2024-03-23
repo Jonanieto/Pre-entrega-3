@@ -284,4 +284,48 @@ main {
   }
 }
 
-/*Comprar auto Fin*//*# sourceMappingURL=estilos.css.map */
+/*Comprar auto Fin*/
+/*Inicio de autos */
+.Tipautos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.Tipautos .ImgC, .Tipautos .ImgC2, .Tipautos .ImgC3, .Tipautos .ImgC4 {
+  max-width: 100%;
+  height: 100%;
+}
+.Tipautos .hdos {
+  color: #c9b755;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Tipautos .htres {
+  color: #ddd;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Tipautos table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.Tipautos table tr {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid #ffffff;
+}
+.Tipautos table tr td {
+  padding: 10px;
+}
+.Tipautos table tr td:first-child {
+  font-weight: bold;
+}
+.Tipautos table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*Fin de autos *//*# sourceMappingURL=estilos.css.map */
