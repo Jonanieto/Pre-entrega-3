@@ -36,7 +36,7 @@
                             <a class="nav-link" href="./Compra_de_autos.html">Comprar un auto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./venta_de _auto.html">Vender tu auto</a>
+                            <a class="nav-link" href="./venta_de_auto.html">Vender tu auto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./usser.html"><i class="fa-regular fa-user"></i></a>
@@ -47,13 +47,13 @@
         </nav>
         <!--Navbar fin-->
     </header>
-    <main class="Po">
-        <div>
-            <h2 class="hdos">Introduce los detalles de tu auto</h2>
-            <h3 class="htres">Por favor, llena los siguientes campos:</h3>
-        </div>
-        <form class="forms">
-            <div>
+    <main>
+        <section>
+            <h2>Introduce los detalles de tu auto</h2>
+            <h3>Por favor, llena los siguientes campos:</h3>
+        </section>
+        <form>
+            <fieldset>
                 <label for="marca">Marca del auto:</label>
                 <select id="marca" name="marca">
                     <option value="">----</option>
@@ -66,8 +66,8 @@
                     <option value="Dodge">Dodge</option>
                     <option value="Cadillac">Cadillac</option>
                 </select>
-            </div>
-            <div>
+            </fieldset>
+            <fieldset>
                 <label for="modelo">Modelo del auto:</label>
                 <select id="modelo" name="modelo">
                     <option value="">----</option>
@@ -80,8 +80,8 @@
                     <option value="Challenger">Challenger</option>
                     <option value="DeVille Coupe">DeVille Coupe</option>
                 </select>
-            </div>
-            <div>
+            </fieldset>
+            <fieldset>
                 <label for="ano">Año de la matrícula:</label>
                 <select id="ano" name="ano">
                     <option value="">----</option>
@@ -102,19 +102,22 @@
                     <option value="1979">1979</option>
                     <option value="1980">1980</option>
                 </select>
-            </div>
-            <div class="Foto">
+            </fieldset>
+            <fieldset>
                 <label for="photo">Agregar Foto del vehículo:</label>
                 <input type="file" id="photo" name="photo">
-            </div>
-            <textarea id="comentarios" name="comentarios" cols="30" rows="5"
-            placeholder="Escribe aquí cualquier comentario adicional"></textarea>
-        <div class="buttons">
-            <button class="submit" type="submit">Enviar</button>
-            <button class="delete" type="reset">Borrar</button>
-        </div>
-    </form>
-</main>
+            </fieldset>
+            <fieldset>
+                <label for="comentarios">Comentarios adicionales:</label>
+                <textarea id="comentarios" name="comentarios" cols="30" rows="5"
+                placeholder="Escribe aquí cualquier comentario adicional"></textarea>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </fieldset>
+        </form>
+    </main>
     <footer>
         <div class="footer">
             <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
