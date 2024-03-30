@@ -605,11 +605,6 @@ footer {
     }
 }
 /* Footer fin */
-
-
-
-
-
 /* Estilos de comprar autos */
 .car-catalog {
     text-align: center;
@@ -646,3 +641,78 @@ footer {
     }
 }
 /*Fin del mismo*/
+
+
+
+
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Tipautos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+}
+
+.ImgC {
+    max-width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ImgC2 {
+    max-width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+td {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    .Tipautos {
+        max-width: 95%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ImgC {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px; 
+    }
+    
+    h3 {
+        font-size: 18px; 
+    }
+}
