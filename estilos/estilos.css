@@ -639,4 +639,129 @@ td {
   h3 {
     font-size: 18px;
   }
+}
+.car-details-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.car-details-form section {
+  margin-bottom: 20px;
+}
+.car-details-form section h1 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.car-details-form section h3 {
+  color: #6c757d;
+}
+.car-details-form .car-form .car-fieldset {
+  margin-bottom: 15px;
+  border: none;
+}
+.car-details-form .car-form .car-fieldset label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.car-details-form .car-form .car-fieldset .car-select,
+.car-details-form .car-form .car-fieldset .car-file-input,
+.car-details-form .car-form .car-fieldset .car-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.car-details-form .car-form .car-fieldset .car-file-input {
+  height: 40px;
+}
+.car-details-form .car-form .car-fieldset .car-textarea {
+  resize: vertical;
+}
+.car-details-form .car-form .car-submit-button,
+.car-details-form .car-form .car-reset-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.car-details-form .car-form .car-submit-button:hover,
+.car-details-form .car-form .car-reset-button:hover {
+  background-color: #0062cc;
+}
+.car-details-form .car-form .car-submit-button:not(:last-child),
+.car-details-form .car-form .car-reset-button:not(:last-child) {
+  margin-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .car-details-form {
+    padding: 15px;
+  }
+  .car-details-form .car-form .car-fieldset label {
+    font-size: 14px;
+  }
+  .car-details-form .car-form .car-fieldset .car-select,
+  .car-details-form .car-form .car-fieldset .car-file-input,
+  .car-details-form .car-form .car-fieldset .car-textarea {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .car-details-form .car-form .car-fieldset .car-submit-button,
+  .car-details-form .car-form .car-fieldset .car-reset-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .car-details-form .car-form .car-fieldset label {
+    font-size: 13px;
+  }
+  .car-details-form .car-form .car-fieldset .car-select,
+  .car-details-form .car-form .car-fieldset .car-file-input,
+  .car-details-form .car-form .car-fieldset .car-textarea {
+    padding: 6px;
+    font-size: 13px;
+  }
+  .car-details-form .car-form .car-fieldset .car-submit-button,
+  .car-details-form .car-form .car-fieldset .car-reset-button {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .car-details-form .car-form .car-fieldset label {
+    font-size: 12px;
+  }
+  .car-details-form .car-form .car-fieldset .car-select,
+  .car-details-form .car-form .car-fieldset .car-file-input,
+  .car-details-form .car-form .car-fieldset .car-textarea {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .car-details-form .car-form .car-fieldset .car-submit-button,
+  .car-details-form .car-form .car-fieldset .car-reset-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .car-details-form .car-form .car-fieldset label {
+    font-size: 11px;
+  }
+  .car-details-form .car-form .car-fieldset .car-select,
+  .car-details-form .car-form .car-fieldset .car-file-input,
+  .car-details-form .car-form .car-fieldset .car-textarea {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .car-details-form .car-form .car-fieldset .car-submit-button,
+  .car-details-form .car-form .car-fieldset .car-reset-button {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

@@ -48,15 +48,15 @@
         </nav>
         <!--Navbar fin-->
     </header>
-    <main>
+    <main class="car-details-form">
         <section>
             <h1>Introduce los detalles de tu auto</h1>
             <h3>Por favor, llena los siguientes campos:</h3>
         </section>
-        <form>
-            <fieldset>
+        <form class="car-form" id="carForm" onsubmit="return validateForm()">
+            <fieldset class="car-fieldset">
                 <label for="marca">Marca del auto:</label>
-                <select id="marca" name="marca">
+                <select id="marca" name="marca" class="car-select" required>
                     <option value="">----</option>
                     <option value="BMW">BMW</option>
                     <option value="Alpha Romeo">Alpha Romeo</option>
@@ -68,9 +68,9 @@
                     <option value="Cadillac">Cadillac</option>
                 </select>
             </fieldset>
-            <fieldset>
+            <fieldset class="car-fieldset">
                 <label for="modelo">Modelo del auto:</label>
-                <select id="modelo" name="modelo">
+                <select id="modelo" name="modelo" class="car-select" required>
                     <option value="">----</option>
                     <option value="M5 (E28)">M5 (E28)</option>
                     <option value="GT Veloce">GT Veloce</option>
@@ -82,9 +82,9 @@
                     <option value="DeVille Coupe">DeVille Coupe</option>
                 </select>
             </fieldset>
-            <fieldset>
+            <fieldset class="car-fieldset">
                 <label for="ano">Año de la matrícula:</label>
-                <select id="ano" name="ano">
+                <select id="ano" name="ano" class="car-select" required>
                     <option value="">----</option>
                     <option value="1965">1965</option>
                     <option value="1966">1966</option>
@@ -104,18 +104,20 @@
                     <option value="1980">1980</option>
                 </select>
             </fieldset>
-            <fieldset>
+            <fieldset class="car-fieldset">
                 <label for="photo">Agregar Foto del vehículo:</label>
-                <input type="file" id="photo" name="photo">
+                <label class="custom-file-upload">
+                    <input type="file" id="photo" name="photo" class="car-file-input" required>
+                    Seleccionar Archivo
+                </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="car-fieldset">
                 <label for="comentarios">Comentarios adicionales:</label>
-                <textarea id="comentarios" name="comentarios" cols="30" rows="5"
-                placeholder="Escribe aquí cualquier comentario adicional"></textarea>
+                <textarea id="comentarios" name="comentarios" cols="30" rows="5" placeholder="Escribe aquí cualquier comentario adicional" class="car-textarea"></textarea>
             </fieldset>
-            <fieldset>
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
+            <fieldset class="car-fieldset">
+                <button type="submit" class="car-submit-button">Enviar</button>
+                <button type="reset" class="car-reset-button">Borrar</button>
             </fieldset>
         </form>
     </main>
