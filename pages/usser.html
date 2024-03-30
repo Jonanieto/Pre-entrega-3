@@ -48,23 +48,40 @@
         </nav>
         <!--Navbar fin-->
     </header>
-    <main class="pP">
-        <form class="formnone1">
-            <h1 class="hdos">Iniciar Sesión</h1>
-            <fieldset>
-                <label for="email">Correo Electrónico</label><br>
-                <input type="email" id="email" class="email" required><br>
+    <main class="login-section">
+        <form class="login-form">
+            <h1 class="login-heading">Iniciar Sesión</h1>
+            <fieldset class="login-fieldset">
+                <legend class="login-legend">Información de inicio de sesión</legend>
+                <label for="email" class="login-label">Correo Electrónico:</label><br>
+                <input type="email" id="email" class="login-input" required><br>
             </fieldset>
-            <fieldset>
-                <label for="password">Contraseña</label><br>
-                <input type="password" id="password" class="password" required><br>
+            <fieldset class="login-fieldset">
+                <legend class="login-legend">Contraseña</legend>
+                <label for="password" class="login-label">Contraseña:</label><br>
+                <input type="password" id="password" class="login-input" required><br>
+                <a href="./forgot_password.html" class="forgot-password">¿Olvidaste tu contraseña?</a>
             </fieldset>
-            <fieldset class="Botton">
-                <button class="enviar" type="submit">Iniciar Sesión</button>
+            <fieldset class="login-fieldset">
+                <button type="submit" class="login-button">Iniciar Sesión</button>
             </fieldset>
-            <fieldset class="Registrate">
-                <p>¿No tienes cuenta? - <a href="./register.html">Registrarse</a></p>
-            </fieldset> 
+            <fieldset class="login-fieldset">
+                <p>¿No tienes cuenta? - <a href="./register.html" class="register-link">Registrarse</a></p>
+            </fieldset>
+            <fieldset class="login-fieldset">
+                <p><a href="./login_alternative.html" class="login-alternative">¿Iniciar Sesión con otra cuenta?</a></p>
+            </fieldset>
+            <fieldset class="login-fieldset">
+                <label for="security-check" class="login-label">Verificación de seguridad:</label><br>
+                <input type="text" id="security-check" class="login-input" placeholder="Introduce el texto de verificación"><br>
+                <span class="captcha">ABCD12</span>
+            </fieldset>
+            <fieldset class="login-fieldset">
+                <p>Al iniciar sesión, aceptas nuestros <a href="./privacy_policy.html" class="privacy-policy">Términos de Servicio</a> y <a href="./privacy_policy.html" class="privacy-policy">Política de Privacidad</a>.</p>
+            </fieldset>
+            <fieldset class="login-fieldset">
+                <p class="login-success">¡Has iniciado sesión exitosamente!</p>
+            </fieldset>
         </form>
     </main>
     <footer>

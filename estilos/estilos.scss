@@ -900,3 +900,180 @@ $color-fondo: #f8f9fa;
     }
 }
 //Vender tu auto fin
+// Usser
+.login-section {
+    text-align: center;
+    padding: 20px;
+}
+.login-form {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+.login-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.login-fieldset {
+    margin-bottom: 15px;
+    border: none;
+}
+.login-legend {
+    font-weight: bold;
+}
+.login-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.login-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.login-button:hover {
+    background-color: #0056b3;
+}
+.register-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.register-link:hover {
+    text-decoration: underline;
+}
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.login-alternative {
+    color: #007bff;
+    text-decoration: none;
+}
+.login-alternative:hover {
+    text-decoration: underline;
+}
+.captcha {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.captcha:hover {
+    text-decoration: underline;
+}
+.login-success {
+    color: green;
+    font-weight: bold;
+}
+.privacy-policy {
+    color: #ff0000; 
+    text-decoration: none;
+}
+.privacy-policy:hover {
+    text-decoration: underline;
+}
+//user fin
+//register
+.registration-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.registration-form {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.registration-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-subheading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.registration-fields {
+    margin-bottom: 20px;
+}
+
+.email-field,
+.password-field,
+.terms-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.terms-field label a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms-field label a:hover {
+    text-decoration: underline;
+}
+
+.registration-button {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.login-option {
+    margin-bottom: 20px;
+}
+
+.login-option a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-option a:hover {
+    text-decoration: underline;
+}
+//register fin
